@@ -59,3 +59,5 @@ a. DATA SPLIT: The dataset is split into 70% for training/tuning and 30% for ind
 b. Model Validation (CV): The GridSearchCV module performs 5-Fold Cross-Validation (cv = 5) on the training data. This ensure the optimal hyperparameters found are reliable across different subsets of the training data, fulfilling the Reliability requirement.
 
 c. Optimization Check: The model is optimized for the F1-Score (scoring = 'f1'). This verifies that the chosen model configuration provides the best possible balance between identifying sick patients (Recall) and avoiding false alarms (Precision)
+
+AUTHOR: NIHAL MUHAMMED
